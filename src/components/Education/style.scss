@@ -1,0 +1,37 @@
+.education {
+  &__content {
+    display: flex;
+  }
+  &__time {
+    padding-right: 1rem;
+  }
+  &__rounder {
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--text-color-light);
+    margin-top: 0.25rem;
+  }
+  &__line {
+    display: block;
+    width: 2px;
+    height: 110%;
+    background-color: var(--text-color-light);
+    transform: translate(7px, 0);
+  }
+  &__data {
+    gap: 0.5rem;
+  }
+  &__title {
+    font-size: var(--h2-font-size);
+  }
+  &__place {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+  }
+  &__year {
+    font-size: var(--smaller-font-size);
+  }
+}

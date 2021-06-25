@@ -1,0 +1,17 @@
+.referance {
+  &__content {
+    gap: 0.25rem;
+  }
+  &__subtitle,
+  &__contact {
+    font-size: var(--smaller-font-size);
+  }
+  &__subtitle {
+    color: var(--text-color-light);
+    text-transform: capitalize;
+  }
+  &__title {
+    font-size: var(--h3-font-size);
+    text-transform: capitalize;
+  }
+}
