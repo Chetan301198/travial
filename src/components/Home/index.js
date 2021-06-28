@@ -33,9 +33,7 @@ const Home = () => {
             <h3 className="home__profession">Web Developer</h3>
 
             <div>
-              <a href="#" className="home__btn">
-                Download
-              </a>
+              <button className="home__btn">Download</button>
             </div>
           </div>
           <div className="home__address bd-grid">

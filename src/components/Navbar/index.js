@@ -47,9 +47,9 @@ const Header = () => {
     <>
       <header className="header">
         <nav className="nav bd-container">
-          <a href="#" className="nav__logo">
+          <button href="#" className="nav__logo">
             Chetan
-          </a>
+          </button>
 
           <div className={`nav__menu ${show ? "nav__show" : ""}`}>
             <ul className="nav__list">
@@ -57,7 +57,7 @@ const Header = () => {
                 return (
                   <li className="nav__item">
                     <a
-                      href="#"
+                      href={"#"}
                       className="nav__link"
                       onClick={() => setShow(!show)}
                     >

@@ -4,7 +4,6 @@ import { GiMeditation } from "react-icons/gi";
 import { BiDumbbell } from "react-icons/bi";
 import { BiBook } from "react-icons/bi";
 import { FaPlane } from "react-icons/fa";
-import { FaTelegram } from "react-icons/bi";
 
 const Interest = () => {
   const interestData = [
