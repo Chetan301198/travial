@@ -10,14 +10,8 @@ const Referance = () => {
       email: "user@gmail.com",
     },
     {
-      title: "Chetan Bhalerao",
-      subtitle: "Frontend developer",
-      phone: "1234567890",
-      email: "user@gmail.com",
-    },
-    {
-      title: "Chetan Bhalerao",
-      subtitle: "Frontend developer",
+      title: "Nayan Bhalerao",
+      subtitle: "Full stack developer",
       phone: "1234567890",
       email: "user@gmail.com",
     },

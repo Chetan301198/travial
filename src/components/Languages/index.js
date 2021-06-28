@@ -7,10 +7,10 @@ const Language = () => {
       name: "marathi",
     },
     {
-      name: "marathi",
+      name: "hindi",
     },
     {
-      name: "marathi",
+      name: "english",
     },
   ];
   return (

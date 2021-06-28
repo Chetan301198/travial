@@ -25,7 +25,8 @@
     gap: 0.5rem;
   }
   &__title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
+    text-transform: capitalize;
   }
   &__place {
     font-size: var(--small-font-size);

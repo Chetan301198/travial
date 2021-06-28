@@ -1,27 +1,28 @@
 import React from "react";
 import "./style.scss";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa";
+import { GiMeditation } from "react-icons/gi";
+import { BiDumbbell } from "react-icons/bi";
+import { BiBook } from "react-icons/bi";
+import { FaPlane } from "react-icons/fa";
+import { FaTelegram } from "react-icons/bi";
 
 const Interest = () => {
   const interestData = [
     {
-      icon: FaFacebookF,
-      desc: "facebook",
+      icon: GiMeditation,
+      desc: "meditation",
     },
     {
-      icon: FaInstagram,
-      desc: "instagram",
+      icon: BiDumbbell,
+      desc: "exercise",
     },
     {
-      icon: FaLinkedin,
-      desc: "linkedin",
+      icon: BiBook,
+      desc: "reading",
     },
     {
-      icon: FaTelegram,
-      desc: "telegram",
+      icon: FaPlane,
+      desc: "travel",
     },
   ];
 

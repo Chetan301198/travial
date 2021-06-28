@@ -14,6 +14,7 @@
     justify-self: center;
     border-radius: 50%;
     margin-bottom: var(--mb-1);
+    filter: grayscale(1);
   }
   &__title {
     font-size: var(--h1-font-size);
@@ -28,7 +29,7 @@
   &__info {
     display: flex;
     align-items: center;
-    font-size: var(small-font-size);
+    font-size: var(--small-font-size);
   }
   &__icon {
     font-size: 1.2rem;
@@ -46,6 +47,14 @@
     &:hover {
       background-color: var(--text-color);
       color: var(--container-color);
+    }
+  }
+  @media screen and (min-width: 968px) {
+    &__container {
+      gap: 1.5rem;
+    }
+    &__btn {
+      display: none;
     }
   }
 }

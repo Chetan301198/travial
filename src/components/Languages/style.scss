@@ -17,4 +17,10 @@
     border-radius: 50%;
     margin-right: 0.75rem;
   }
+  @media screen and (min-width: 968px) {
+    &__content {
+      grid-template-columns: repeat(3, max-content);
+      column-gap: 3.5rem;
+    }
+  }
 }

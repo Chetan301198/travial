@@ -5,15 +5,15 @@ const Certificate = () => {
   const certificateInfo = [
     {
       title: "web development",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
     },
     {
-      title: "web development",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "graphic designer",
+      desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
     },
     {
-      title: "web development",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "devops",
+      desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
     },
   ];
 

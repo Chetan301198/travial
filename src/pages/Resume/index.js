@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.scss";
 import Home from "../../components/Home";
 import Social from "../../components/Social";
 import Profile from "../../components/Profile";
@@ -13,7 +14,7 @@ import Interest from "../../components/Interest";
 const Resume = () => {
   return (
     <>
-      <div className="resume">
+      <div className="resume" id="cv">
         <div className="resume__left">
           <Home />
           <Social />

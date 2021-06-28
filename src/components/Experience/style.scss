@@ -25,13 +25,14 @@
     gap: 0.5rem;
   }
   &__title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
+    text-transform: capitalize;
   }
   &__company {
     font-size: var(--small-font-size);
     color: var(--title-color);
   }
-  &__description {
-    font-size: var(--smaller-font-size);
-  }
+  // &__description {
+  //   font-size: var(--smaller-font-size);
+  // }
 }

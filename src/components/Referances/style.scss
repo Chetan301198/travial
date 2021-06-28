@@ -14,4 +14,9 @@
     font-size: var(--h3-font-size);
     text-transform: capitalize;
   }
+  @media screen and (min-width: 968px) {
+    &__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }

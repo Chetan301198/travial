@@ -6,20 +6,20 @@ const Experience = () => {
     {
       title: "Web Developer",
       company: "Mumbai",
-      duration: "2019 to 2021",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      duration: "2020 to 2021",
+      desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     },
     {
-      title: "Web Developer",
+      title: "graphic Developer",
       company: "Mumbai",
-      duration: "2019 to 2021",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      duration: "2019 to 2020",
+      desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     },
     {
-      title: "Web Developer",
+      title: "full stack Developer",
       company: "Mumbai",
-      duration: "2019 to 2021",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      duration: "2018 to 2019",
+      desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     },
   ];
 
