@@ -31,7 +31,10 @@ const App = () => {
         </main>
 
         <Header />
-        <button className="create-pdf" onClick={handlePdf}>
+        <button
+          className={add ? "scale-cv create-pdf" : "create-pdf"}
+          onClick={handlePdf}
+        >
           <BiArrowToBottom className="icon" />
           Download
         </button>
