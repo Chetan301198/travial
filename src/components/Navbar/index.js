@@ -56,14 +56,13 @@ const Header = () => {
               {menuData.map((value) => {
                 return (
                   <li className="nav__item">
-                    <a
-                      href={"#"}
+                    <button
                       className="nav__link"
                       onClick={() => setShow(!show)}
                     >
                       <value.icon className="nav__icon" />
                       <sapn>{value.name}</sapn>
-                    </a>
+                    </button>
                   </li>
                 );
               })}
