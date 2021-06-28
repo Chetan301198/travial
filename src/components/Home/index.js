@@ -1,4 +1,4 @@
-import React, { useDebugValue } from "react";
+import React from "react";
 import "./style.scss";
 import profile from "../../assets/my-img.jpg";
 import { BiMap } from "react-icons/bi";
