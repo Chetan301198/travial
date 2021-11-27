@@ -33,7 +33,7 @@ function Education() {
               <div className="education__content">
                 <div className="education__time">
                   <span className="education__rounder"></span>
-                  <span className={isLine && "education__line"}></span>
+                  <span className={val.isLine && "education__line"}></span>
                 </div>
                 <div className="education__data bd-grid">
                   <h3 className="education__title">{val.title}</h3>
