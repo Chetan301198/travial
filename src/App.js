@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <>
-      <div className={"app scale-cv"}>
+      <div className={"app"}>
         <main className="main bd-container">
           <Router>
             <Switch>
