@@ -8,18 +8,21 @@ const Experience = () => {
       company: "Mumbai",
       duration: "2020 to 2021",
       desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      isLine: true,
     },
     {
       title: "graphic Developer",
       company: "Mumbai",
       duration: "2019 to 2020",
       desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      isLine: true,
     },
     {
       title: "full stack Developer",
       company: "Mumbai",
       duration: "2018 to 2019",
       desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      isLine: false,
     },
   ];
 
@@ -34,7 +37,7 @@ const Experience = () => {
               <div className="experience__content">
                 <div className="experience__time">
                   <span className="experience__rounder"></span>
-                  <span className={"experience__line"}></span>
+                  <span className={val.isLine && "experience__line"}></span>
                 </div>
                 <div className="experience__data bd-grid">
                   <h3 className="experience__title">{val.title}</h3>
